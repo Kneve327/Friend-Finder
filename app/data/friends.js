@@ -1,37 +1,39 @@
 var employeesArray = [{
     name: "Jim Halpert",
-    photo:"https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwjZlMa-2-PeAhXqt1kKHeBEDboQjRx6BAgBEAU&url=https%3A%2F%2Ftvline.com%2F2018%2F02%2F12%2Fthe-office-revival-john-krasinski-jim-video%2F&psig=AOvVaw1_xC52luABFS4tO01ikNtX&ust=1542828771504859",
+    photo:"https://wittyserendipity.files.wordpress.com/2016/10/635927223188301534-622930799_jim.png?w=820&h=312&crop=1",
     scores: [
         1, 1, 1, 5, 1, 2, 3, 2, 2, 5
     ]
 },
 {
     name: "Pam Beesley",
-    photo:"https://www.google.com/url?sa=i&source=images&cd=&ved=2ahUKEwiO6JC33OPeAhXwtlkKHaeWDV0QjRx6BAgBEAU&url=https%3A%2F%2Ftheofficeanalytics.wordpress.com%2F2017%2F09%2F23%2Fpam-beesly-isfj%2F&psig=AOvVaw23BHNagD1H2dofeJ1-l4qt&ust=1542829082310898",
+    photo:"https://theofficeanalytics.files.wordpress.com/2017/09/pam-halpert-1.jpg?w=1024",
     scores: [
         5, 1, 1, 4, 5, 4, 3, 4, 4, 4
     ]
 },
 {
     name: "Michael Scott",
-    photo:"https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwi5neuD3ePeAhXJxFkKHTbVAa4QjRx6BAgBEAU&url=https%3A%2F%2Fwww.elitedaily.com%2Fp%2F10-secrets-about-the-office-that-even-the-biggest-michael-scott-fan-wont-know-8735316&psig=AOvVaw1NOPPCwKItwHELQhplSpMU&ust=1542829257136080",
+    photo:"https://imgix.bustle.com/uploads/image/2018/4/9/0e1587de-fd74-4e77-9264-62a0bf5e894a-nup_130296_0067.jpeg?w=945&h=574&fit=crop&crop=faces&auto=format&q=70",
     scores: [
         1, 3, 1, 5, 1, 2, 5, 1, 1, 5
     ]
 },
 {
     name: "Dwight Schrute",
-    photo:"https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwiQj57b3ePeAhWExFkKHYZOC8EQjRx6BAgBEAU&url=https%3A%2F%2Fwww.themarysue.com%2Fnbc-office-spin-off-dwight-schrute%2F&psig=AOvVaw01LFILiqxvartoiS0dN1Hq&ust=1542829407655750",
+    photo:"https://am22.akamaized.net/tms/cnt/uploads/2012/01/dwightschrute-220x252.jpg",
     scores: [
         5, 5, 5, 2, 3, 2, 3, 1, 3, 4
     ]
 },
 {
     name: "Angela Martin",
-    photo:"https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwiG-tmR3uPeAhUBjlkKHYO5AHIQjRx6BAgBEAU&url=https%3A%2F%2Fwww.pinterest.com%2Fpin%2F490610953135439706%2F&psig=AOvVaw1ZCXZd5FwYcIdReII0ARyJ&ust=1542829487906179",
+    photo:"https://img.buzzfeed.com/buzzfeed-static/static/2015-09/9/15/enhanced/webdr02/enhanced-3746-1441827818-18.jpg?crop=250:375;25,0&downsize=400:*&output-format=auto&output-quality=auto",
     scores: [
         5, 5, 5, 1, 5, 1, 3, 1, 5, 2
     ]
 }
 
 ]
+
+module.exports = employeesArray;
